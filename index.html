@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Nameflix - Fermé temporairement</title>
+    <style>
+        /* Style général */
+        body {
+            background: #121212;
+            color: #ffffff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+
+        /* Conteneur du message */
+        .message-box {
+            background: #1f1f1f;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.5);
+            max-width: 500px;
+        }
+
+        /* Titre */
+        h1 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #ff5555;
+        }
+
+        /* Texte */
+        p {
+            font-size: 1.2em;
+            line-height: 1.5em;
+        }
+
+        /* Petite animation */
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+
+        h1 {
+            animation: pulse 2s infinite;
+        }
+    </style>
+</head>
+<body>
+    <div class="message-box">
+        <h1>Nameflix temporairement fermé</h1>
+        <p>Nous reviendrons très bientôt !<br>
+        Le site réouvrira le <strong>jeudi 23</strong> ou le <strong>vendredi 24 octobre</strong>.</p>
+    </div>
+</body>
+</html>
